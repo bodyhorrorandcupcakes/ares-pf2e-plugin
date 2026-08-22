@@ -1,0 +1,249 @@
+# Language catalog — PF2e Remaster (Player Core / Player Core 2).
+# Lookup: Pf2e.read_data("languages", "common")
+#
+# rarity: common | uncommon | secret
+# restricted: true → only granted by a specific source (e.g. Wildsong),
+#             never chosen as a free Int-language pick
+#
+# Remaster: Druidic → Wildsong (druidic kept as alias)
+
+languages:
+  # ---- Common ----
+  common:
+    name: Common
+    rarity: common
+    spoken: true
+    written: true
+    note: "Universal trade language; most characters start with this."
+
+  draconic:
+    name: Draconic
+    rarity: common
+    spoken: true
+    written: true
+
+  dwarven:
+    name: Dwarven
+    rarity: common
+    spoken: true
+    written: true
+
+  elven:
+    name: Elven
+    rarity: common
+    spoken: true
+    written: true
+
+  fey:
+    name: Fey
+    rarity: common
+    spoken: true
+    written: true
+
+  gnomish:
+    name: Gnomish
+    rarity: common
+    spoken: true
+    written: true
+
+  goblin:
+    name: Goblin
+    rarity: common
+    spoken: true
+    written: true
+
+  halfling:
+    name: Halfling
+    rarity: common
+    spoken: true
+    written: true
+
+  jotun:
+    name: Jotun
+    rarity: common
+    spoken: true
+    written: true
+
+  orcish:
+    name: Orcish
+    rarity: common
+    spoken: true
+    written: true
+
+  sakvroth:
+    name: Sakvroth
+    rarity: common
+    spoken: true
+    written: true
+    note: "Kobold / subterranean trade tongue."
+
+  sylvan:
+    name: Sylvan
+    rarity: common
+    spoken: true
+    written: true
+
+  # Ancestry-specific common tongues
+  amurrun:
+    name: Amurrun
+    rarity: common
+    spoken: true
+    written: true
+    note: "Catfolk language."
+
+  iruxi:
+    name: Iruxi
+    rarity: common
+    spoken: true
+    written: true
+    note: "Lizardfolk language."
+
+  kholo:
+    name: Kholo
+    rarity: common
+    spoken: true
+    written: true
+
+  tengu:
+    name: Tengu
+    rarity: common
+    spoken: true
+    written: true
+
+  tripkee:
+    name: Tripkee
+    rarity: common
+    spoken: true
+    written: true
+
+  ysoki:
+    name: Ysoki
+    rarity: common
+    spoken: true
+    written: true
+    note: "Ratfolk language."
+
+  # ---- Uncommon ----
+  aklo:
+    name: Aklo
+    rarity: uncommon
+    spoken: true
+    written: true
+
+  celestial:
+    name: Celestial
+    rarity: uncommon
+    spoken: true
+    written: true
+
+  chthonian:
+    name: Chthonian
+    rarity: uncommon
+    spoken: true
+    written: true
+    note: "Remaster name for former Abyssal / Undercommon-adjacent fiend tongues."
+
+  diabolic:
+    name: Diabolic
+    rarity: uncommon
+    spoken: true
+    written: true
+    note: "Remaster name for Infernal."
+
+  empyrean:
+    name: Empyrean
+    rarity: uncommon
+    spoken: true
+    written: true
+
+  necrocil:
+    name: Necrocil
+    rarity: uncommon
+    spoken: true
+    written: true
+
+  petran:
+    name: Petran
+    rarity: uncommon
+    spoken: true
+    written: true
+
+  protean:
+    name: Protean
+    rarity: uncommon
+    spoken: true
+    written: true
+
+  pyric:
+    name: Pyric
+    rarity: uncommon
+    spoken: true
+    written: true
+
+  shadowtongue:
+    name: Shadowtongue
+    rarity: uncommon
+    spoken: true
+    written: true
+
+  sphinx:
+    name: Sphinx
+    rarity: uncommon
+    spoken: true
+    written: true
+
+  sussuran:
+    name: Sussuran
+    rarity: uncommon
+    spoken: true
+    written: true
+
+  thalassic:
+    name: Thalassic
+    rarity: uncommon
+    spoken: true
+    written: true
+
+  # ---- Secret ----
+  wildsong:
+    name: Wildsong
+    rarity: secret
+    spoken: true
+    written: true
+    restricted: true
+    note: "Druid class language (Remaster). Class-granted only."
+
+  # Alias for classic text / imports
+  druidic:
+    name: Wildsong
+    rarity: secret
+    spoken: true
+    written: true
+    restricted: true
+    alias_of: wildsong
+    note: "Legacy alias for Wildsong."
+
+  # ---- Legacy aliases (old names → Remaster) ----
+  infernal:
+    name: Diabolic
+    rarity: uncommon
+    spoken: true
+    written: true
+    alias_of: diabolic
+    note: "Legacy alias for Diabolic."
+
+  abyssal:
+    name: Chthonian
+    rarity: uncommon
+    spoken: true
+    written: true
+    alias_of: chthonian
+    note: "Legacy alias for Chthonian."
+
+  undercommon:
+    name: Sakvroth
+    rarity: common
+    spoken: true
+    written: true
+    alias_of: sakvroth
+    note: "Legacy alias often mapped to Sakvroth in Remaster tables."

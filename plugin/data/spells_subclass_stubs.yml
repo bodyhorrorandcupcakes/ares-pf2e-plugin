@@ -1,0 +1,3 @@
+# Deprecated: PC2/SoM focus stubs moved to spells_pc2.yml / spells_som.yml.
+# Kept as an empty merge target for older docs.
+spells: {}

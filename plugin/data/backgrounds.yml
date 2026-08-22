@@ -1,0 +1,646 @@
+# Backgrounds — Pathfinder Player Core (+ compatible).
+# chargen_open: true required for player picks (missing = closed).
+# Default package: all listed backgrounds are open.
+#
+backgrounds:
+  acolyte:
+    name: Acolyte
+    chargen_open: true
+    boosts:
+      fixed: []
+      free: 2
+      options:
+      - int
+      - wis
+    skills:
+    - religion
+    - scribing_lore
+    skill_choices: []
+    feat: student_of_the_canon
+    traits: []
+  acrobat:
+    name: Acrobat
+    chargen_open: true
+    boosts:
+      fixed: []
+      free: 2
+      options:
+      - dex
+      - str
+    skills:
+    - acrobatics
+    - circus_lore
+    skill_choices: []
+    feat: steady_balance
+    traits: []
+  animal_whisperer:
+    name: Animal Whisperer
+    chargen_open: true
+    boosts:
+      fixed: []
+      free: 2
+      options:
+      - cha
+      - wis
+    skills:
+    - nature
+    skill_choices: []
+    feat: train_animal
+    traits: []
+  artisan:
+    name: Artisan
+    chargen_open: true
+    boosts:
+      fixed: []
+      free: 2
+      options:
+      - int
+      - str
+    skills:
+    - crafting
+    - guild_lore
+    skill_choices: []
+    feat: specialty_crafting
+    traits: []
+  artist:
+    name: Artist
+    chargen_open: true
+    boosts:
+      fixed: []
+      free: 2
+      options:
+      - cha
+      - dex
+    skills:
+    - crafting
+    - art_lore
+    skill_choices: []
+    feat: specialty_crafting
+    traits: []
+  bandit:
+    name: Bandit
+    chargen_open: true
+    boosts:
+      fixed: []
+      free: 2
+      options:
+      - cha
+      - dex
+    skills:
+    - intimidation
+    skill_choices:
+    - type: lore
+      pick: 1
+      category: home_terrain
+    feat: group_coercion
+    traits: []
+  barkeep:
+    name: Barkeep
+    chargen_open: true
+    boosts:
+      fixed: []
+      free: 2
+      options:
+      - cha
+      - con
+    skills:
+    - diplomacy
+    - alcohol_lore
+    skill_choices: []
+    feat: hobnobber
+    traits: []
+  barrister:
+    name: Barrister
+    chargen_open: true
+    boosts:
+      fixed: []
+      free: 2
+      options:
+      - cha
+      - int
+    skills:
+    - diplomacy
+    - legal_lore
+    skill_choices: []
+    feat: group_impression
+    traits: []
+  bounty_hunter:
+    name: Bounty Hunter
+    chargen_open: true
+    boosts:
+      fixed: []
+      free: 2
+      options:
+      - str
+      - wis
+    skills:
+    - survival
+    - legal_lore
+    skill_choices: []
+    feat: experienced_tracker
+    traits: []
+  charlatan:
+    name: Charlatan
+    chargen_open: true
+    boosts:
+      fixed: []
+      free: 2
+      options:
+      - cha
+      - int
+    skills:
+    - deception
+    - underworld_lore
+    skill_choices: []
+    feat: charming_liar
+    traits: []
+  cook:
+    name: Cook
+    chargen_open: true
+    boosts:
+      fixed: []
+      free: 2
+      options:
+      - con
+      - int
+    skills:
+    - survival
+    - cooking_lore
+    skill_choices: []
+    feat: seasoned
+    traits: []
+  criminal:
+    name: Criminal
+    chargen_open: true
+    boosts:
+      fixed: []
+      free: 2
+      options:
+      - dex
+      - int
+    skills:
+    - stealth
+    - underworld_lore
+    skill_choices: []
+    feat: experienced_smuggler
+    traits: []
+  cultist:
+    name: Cultist
+    chargen_open: true
+    boosts:
+      fixed: []
+      free: 2
+      options:
+      - cha
+      - int
+    skills:
+    - occultism
+    skill_choices:
+    - type: list
+      pick: 1
+      options:
+      - deity_lore
+    feat: schooled_in_secrets
+    traits: []
+  detective:
+    name: Detective
+    chargen_open: true
+    boosts:
+      fixed: []
+      free: 2
+      options:
+      - int
+      - wis
+    skills:
+    - society
+    - underworld_lore
+    skill_choices: []
+    feat: streetwise
+    traits: []
+  emissary:
+    name: Emissary
+    chargen_open: true
+    boosts:
+      fixed: []
+      free: 2
+      options:
+      - cha
+      - int
+    skills:
+    - society
+    skill_choices:
+    - type: list
+      pick: 1
+      options:
+      - city_lore
+    feat: multilingual
+    traits: []
+  entertainer:
+    name: Entertainer
+    chargen_open: true
+    boosts:
+      fixed: []
+      free: 2
+      options:
+      - cha
+      - dex
+    skills:
+    - performance
+    - theatre_lore
+    skill_choices: []
+    feat: fascinating_performance
+    traits: []
+  farmhand:
+    name: Farmhand
+    chargen_open: true
+    boosts:
+      fixed: []
+      free: 2
+      options:
+      - con
+      - wis
+    skills:
+    - athletics
+    - farming_lore
+    skill_choices: []
+    feat: null
+    traits: []
+  field_medic:
+    name: Field Medic
+    chargen_open: true
+    boosts:
+      fixed: []
+      free: 2
+      options:
+      - con
+      - wis
+    skills:
+    - medicine
+    - warfare_lore
+    skill_choices: []
+    feat: battle_medicine
+    traits: []
+  fortune_teller:
+    name: Fortune Teller
+    chargen_open: true
+    boosts:
+      fixed: []
+      free: 2
+      options:
+      - cha
+      - int
+    skills:
+    - occultism
+    - fortune-telling_lore
+    skill_choices: []
+    feat: oddity_identification
+    traits: []
+  gambler:
+    name: Gambler
+    chargen_open: true
+    boosts:
+      fixed: []
+      free: 2
+      options:
+      - cha
+      - dex
+    skills:
+    - deception
+    - games_lore
+    skill_choices: []
+    feat: lie_to_me
+    traits: []
+  gladiator:
+    name: Gladiator
+    chargen_open: true
+    boosts:
+      fixed: []
+      free: 2
+      options:
+      - cha
+      - str
+    skills:
+    - performance
+    - gladatorial_lore
+    skill_choices: []
+    feat: impressive_performance
+    traits: []
+  guard:
+    name: Guard
+    chargen_open: true
+    boosts:
+      fixed: []
+      free: 2
+      options:
+      - cha
+      - str
+    skills:
+    - intimidation
+    skill_choices:
+    - type: list
+      pick: 1
+      options:
+      - legal_lore
+      - warfare_lore
+    feat: quick_coercion
+    traits: []
+  herbalist:
+    name: Herbalist
+    chargen_open: true
+    boosts:
+      fixed: []
+      free: 2
+      options:
+      - con
+      - wis
+    skills:
+    - nature
+    - herbalism_lore
+    skill_choices: []
+    feat: natural_medicine
+    traits: []
+  hermit:
+    name: Hermit
+    chargen_open: true
+    boosts:
+      fixed: []
+      free: 2
+      options:
+      - con
+      - int
+    skills: []
+    skill_choices:
+    - type: list
+      pick: 1
+      options:
+      - location_lore
+    - type: list
+      pick: 1
+      options:
+      - nature
+      - occultism
+    feat: dubious_knowledge
+    traits: []
+  hunter:
+    name: Hunter
+    chargen_open: true
+    boosts:
+      fixed: []
+      free: 2
+      options:
+      - dex
+      - wis
+    skills:
+    - survival
+    - tanning_lore
+    skill_choices: []
+    feat: survey_wildlife
+    traits: []
+  laborer:
+    name: Laborer
+    chargen_open: true
+    boosts:
+      fixed: []
+      free: 2
+      options:
+      - con
+      - str
+    skills:
+    - athletics
+    - labor_lore
+    skill_choices: []
+    feat: hefty_hauler
+    traits: []
+  martial_disciple:
+    name: Martial Disciple
+    chargen_open: true
+    boosts:
+      fixed: []
+      free: 2
+      options:
+      - dex
+      - str
+    skills:
+    - warfare_lore
+    skill_choices:
+    - type: list
+      pick: 1
+      options:
+      - acrobatics
+      - athletics
+      feats:
+        acrobatics: cat_fall
+        athletics: quick_jump
+    feat: null
+    traits: []
+  merchant:
+    name: Merchant
+    chargen_open: true
+    boosts:
+      fixed: []
+      free: 2
+      options:
+      - cha
+      - int
+    skills:
+    - diplomacy
+    - mercantile_lore
+    skill_choices: []
+    feat: bargain_hunter
+    traits: []
+  miner:
+    name: Miner
+    chargen_open: true
+    boosts:
+      fixed: []
+      free: 2
+      options:
+      - str
+      - wis
+    skills:
+    - survival
+    - mining_lore
+    skill_choices: []
+    feat: terrain_expertise
+    traits: []
+  noble:
+    name: Noble
+    chargen_open: true
+    boosts:
+      fixed: []
+      free: 2
+      options:
+      - cha
+      - int
+    skills:
+    - society
+    skill_choices:
+    - type: list
+      pick: 1
+      options:
+      - genealogy_lore
+      - heraldry_lore
+    feat: courtly_graces
+    traits: []
+  nomad:
+    name: Nomad
+    chargen_open: true
+    boosts:
+      fixed: []
+      free: 2
+      options:
+      - con
+      - wis
+    skills:
+    - survival
+    skill_choices:
+    - type: lore
+      pick: 1
+      category: home_terrain
+    feat: null
+    traits: []
+  prisoner:
+    name: Prisoner
+    chargen_open: true
+    boosts:
+      fixed: []
+      free: 2
+      options:
+      - con
+      - str
+    skills:
+    - stealth
+    - underworld_lore
+    skill_choices: []
+    feat: experienced_smuggler
+    traits: []
+  raised_by_belief:
+    name: Raised by Belief
+    chargen_open: true
+    boosts:
+      fixed: []
+      free: 2
+    skills: []
+    skill_choices: []
+    feat: assurance
+    traits: []
+  sailor:
+    name: Sailor
+    chargen_open: true
+    boosts:
+      fixed: []
+      free: 2
+      options:
+      - dex
+      - str
+    skills:
+    - athletics
+    - sailing_lore
+    skill_choices: []
+    feat: underwater_marauder
+    traits: []
+  scholar:
+    name: Scholar
+    chargen_open: true
+    boosts:
+      fixed: []
+      free: 2
+      options:
+      - int
+      - wis
+    skills:
+    - academia_lore
+    skill_choices:
+    - type: list
+      pick: 1
+      options:
+      - arcana
+      - nature
+      - occultism
+      - religion
+    feat: null
+    traits: []
+  scout:
+    name: Scout
+    chargen_open: true
+    boosts:
+      fixed: []
+      free: 2
+      options:
+      - dex
+      - wis
+    skills:
+    - survival
+    skill_choices:
+    - type: lore
+      pick: 1
+      category: home_terrain
+    feat: forager
+    traits: []
+  street_urchin:
+    name: Street Urchin
+    chargen_open: true
+    boosts:
+      fixed: []
+      free: 2
+      options:
+      - con
+      - dex
+    skills:
+    - thievery
+    skill_choices:
+    - type: list
+      pick: 1
+      options:
+      - city_lore
+    feat: pickpocket
+    traits: []
+  teacher:
+    name: Teacher
+    chargen_open: true
+    boosts:
+      fixed: []
+      free: 2
+      options:
+      - int
+      - wis
+    skills:
+    - academia_lore
+    skill_choices:
+    - type: list
+      pick: 1
+      options:
+      - performance
+      - society
+    feat: experienced_professional
+    traits: []
+  tinker:
+    name: Tinker
+    chargen_open: true
+    boosts:
+      fixed: []
+      free: 2
+      options:
+      - dex
+      - int
+    skills:
+    - crafting
+    - engineering_lore
+    skill_choices: []
+    feat: specialty_crafting
+    traits: []
+  warrior:
+    name: Warrior
+    chargen_open: true
+    boosts:
+      fixed: []
+      free: 2
+      options:
+      - con
+      - str
+    skills:
+    - intimidation
+    - warfare_lore
+    skill_choices: []
+    feat: intimidating_glare
+    traits: []

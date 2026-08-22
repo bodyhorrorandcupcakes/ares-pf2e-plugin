@@ -1,0 +1,3 @@
+# Deprecated: SoM order feats moved to feats_som.yml.
+# Kept as an empty merge target for older docs.
+feats: {}
